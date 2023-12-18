@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    background-color:#eee;
+    overflow:auto;
+  }
+  
+  body {
+      text-align:center;
+  }
+  
+  div {
+      border:1px solid grey;
+      margin-top:20px;
+      
+  }
+  
+  #problem {
+      /* in Ex1, add one line here to specify the width of this element relative to the width of the viewport */ 
+      outline:none;
+      margin:auto;
+      margin-top:20px;
+      height:80px;
+      text-align:left;
+      color:red;
+      font-family:Tahoma, Verdana, sans-serif;
+      font-size:15px;
+      padding-left:15px;
+      padding-right:20px;
+      width:90vw;
+      
+  }
+  .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+  }
+    
+    /* Clearfix (clear floats) */
+  
+  .imageLebron{
+      float:center;
+      width: 10.00%;
+      padding:5px;
+      text-align: center;
+      vertical-align: bottom;
+  }
+  
+  
+  
+  footer{
+      margin-top:20px;
+      text-align:center;
+      font-size:10px;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+#image1{
+    float:left;
+}
+#image2{
+    float:right;
+}
+#image3{
+    float: center;
+}
+  
+    [class*="column"] { 
+       width: 90%;
+       display:inline-block;
+       height:60vh;
+    }
+  
+    header nav button{ 
+        width:18%;
+        font-size:8px;
+    }
+  
+  @media screen and (min-width:600px) {
+    [class*="column"] {
+      width:32%;
+    }
+    
+    header nav button{ 
+      width:9%;
+      font-size:1.2vw;
+    }
+  }

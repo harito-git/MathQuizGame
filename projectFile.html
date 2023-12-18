@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projectFile.css">
+    <script src="projectFile.js"></script>
+    <title>Math Quiz</title>
+    <p id="scores" class = "hidden">Score: 0 Strikes: 0</p>
+</head>
+<body>
+    <div class="container">
+        <h1>Math Quiz Game</h1>
+        <div id="menu">
+            <button id = "multiplication" onclick="gameon('multi')">Multiplication</button>
+            <button id="division" onclick = "gameon('divi')">Division</button>
+            <button id="addition" onclick = "gameon('add')">Addition</button>
+            <button id="subtraction" onclick = "gameon('subtract')">Subtraction</button>
+            
+        </div>
+      <div id = "container">
+        <p id="question" class="newquestion"> </p>
+        <p> <button id="button" ></button></p>
+        </div>
+    
+        <div id="question-container" class="hidden">
+            <p id="question" class = "newquestion"></p>
+            <input type="text" id="answer" class="hidden"> 
+            <p id = "space"></p>
+            <button id = "submit" onclick="submitAnswer()">Submit Answer</button>
+        </div>
+        
+        <div id="result" class="hidden">
+            <p id="message"></p>
+        </div>
+   </div>
+
+
+
+    <footer>
+        <div id="aboutUs">
+        <button id="about-us" onclick = "aboutUs()">About Us</button>
+        </div>
+    </footer>
+</body>
+</html>

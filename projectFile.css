@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+}
+.hidden {
+    display: none;
+}
+#scores{ 
+    top: 0; 
+    right: 0; 
+    width: 100px; 
+    text-align:right;
+    float:right;
+    font-size:20px;
+}
+#about-us{ 
+    bottom: 0; 
+    left: 0;  
+    text-align:right;
+    float:left;
+    font-size:10px;
+}
+
+
+
+.container {
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+    border-color: solid black;
+    
+}
+
+#multiplication{
+    margin: 10px;
+    background-color: blue;
+
+
+    
+}
+.container h1 {
+    text-align: center;
+    margin: 45px;
+    border-radius: 20px;
+    border-color: solid black; 
+}
+
+#division{
+    margin: 10px;
+    background-color: yellow;
+    
+}
+
+
+#addition{
+  margin: 10px;
+  background-color: green;
+}
+#subtraction{
+    margin:10px;
+    background-color: red; 
+}
+
+#question{
+    text-align:center;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+
+#about-us {
+    margin-top: 20px;
+}
